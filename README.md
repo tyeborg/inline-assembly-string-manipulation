@@ -1,4 +1,4 @@
-# Software Development 2: C with Integrated Assembly
+# Software Development 2: C with Inline Assembly
 
 The objective of this program is to receive an input file (preferably text file) and convert/count the contents within that file using a specified argument in the command line. The result of the conversion/counting is translated into an output file called `output.txt`.
 
@@ -27,3 +27,10 @@ The input file should always be preceded by an `-i` to ensure to the program tha
 The program will continue to run if the `-i` or `-o` arguments are not included for the filenames. If there is no `-i` included, the program will prompt the user to enter a text file (from stdin) for conversion. If `-o` is not included, then the program will continue to print the results in the stdout. 
 
 If specifiers like, `-u`, `-l`, or `-c` are not included in the command line then the program will default the contents of the input file to uppercase. 
+
+## Recommendations
+
+1. **Microsoft Syntax**: It’s recommended to use the Microsoft compiler as the code comprises of inline assembly 	that runs on the Microsoft syntax.
+2. **Makefile**: A Makefile is a text file that describes how your program should be built (automates the builds). We’re using a Makefile to reduce the time on typing the compile command, and simple mistakes. Makefiles consists of dependencies and rules to produce a successful compilation.
+
+<img width="1465" alt="image" src="https://user-images.githubusercontent.com/96035297/187044012-3aa39209-1059-46d0-adb3-fe6299a99ef5.png">

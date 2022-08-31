@@ -34,3 +34,12 @@ If specifiers like, `-u`, `-l`, or `-c` are not included in the command line the
 2. **Makefile**: A Makefile is a text file that describes how your program should be built (automates the builds). We’re using a Makefile to reduce the time on typing the compile command, and simple mistakes. Makefiles consists of dependencies and rules to produce a successful compilation.
 
 <img width="1465" alt="image" src="https://user-images.githubusercontent.com/96035297/187044012-3aa39209-1059-46d0-adb3-fe6299a99ef5.png">
+
+## Languages & Tools Utilized
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/96035297/186022424-f96144ad-7b39-4add-a0dc-3c0ec400124f.png" height="50" width="50" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,vscode" />
+  </a>
+</p>
